@@ -84,7 +84,9 @@ Column breakdown of recommendations.csv is as follows:
 ---
 
 - [x] Initial GitHub repository and project breakdown 
-- [ ] Preliminary EDA on the data, including cleaning and noting any problem areas
-- [ ] Extraction of JSON file and merging pertinent data into existing csv, cleaning data again once completed
-- [ ] Discover usable metrics which might lead to an initial model
-- [ ] Begin prototyping model
+- [x] Preliminary EDA on the data, including cleaning and noting any problem areas
+- [x] Extraction of JSON file and merging pertinent data into existing csv, cleaning data again once completed
+- [x] Discover usable metrics which might lead to an initial model
+- [x] Begin prototyping model
+- [ ] Explore virtual collaborative filtering environments
+- [ ] Build PySpark based model
