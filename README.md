@@ -1,10 +1,6 @@
 ## Project Overview 
 ---
-This project was created as the capstone project for BrainStation's Data Science Diploma program.  The purpose of this project is to create a recommender algorithm for the Steam game store.  Specifically, this project seeks to create a recommender that is able to recognize early signs of success in the Indie (independent developer) game genre and predict whether a title will be successful, and if it is, recommend it.  
-
-The issue in the gaming space is that indie developers often do not have strong budgets to market their games, often forced to spend it all on development.  This makes it difficult for them to reach potential buyers, often relying on free social media marketing and community influence to get the word out.  Despite this, indie games have had many examples of runaway success.  So much so that there has been a marked shift of trust of the gaming community from established game development studios to new indie studios, marking a gaming renaissance of sorts.  That being said there are all too many examples of game finishing development and lying dormant for long periods of time until a player with a strong community following plays it and revitalizes the entire project.  
-
-The purpose of this algorithm is to hopefully streamline the discovery process. To boost games that it determines has strong potential for success in the market that may not otherwise receive any attention. 
+This project was created as the capstone project for BrainStation's Data Science Diploma program.  The purpose of this project is to create a recommender algorithm for the Steam game store. The end goal is an algorithm that can read a users play history and identify titles it believes the user would enjoy.  Currently it implements a FunkSVDpp algorithm using two different rating metrics.  In the near future hybrid models are intended to be implemented to allow greater variety and customizability of recommendations.   
 
 ## Data Source
 ---
@@ -88,5 +84,7 @@ Column breakdown of recommendations.csv is as follows:
 - [x] Extraction of JSON file and merging pertinent data into existing csv, cleaning data again once completed
 - [x] Discover usable metrics which might lead to an initial model
 - [x] Begin prototyping model
-- [ ] Explore virtual collaborative filtering environments
-- [ ] Build PySpark based model
+- [x] Build and test first model
+- [x] Create a recommendation function
+- [ ] Implement hybrid model features to refine recommendation output
+- [ ] Package everything into a Streamlit app
